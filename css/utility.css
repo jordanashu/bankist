@@ -1,0 +1,53 @@
+.hidden {
+  display: none !important;
+}
+
+.ml {
+  margin-left: 2rem;
+}
+
+.mt {
+  margin-top: 2rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.c-red {
+  background-color: var(--color-red) !important;
+}
+
+.c-green {
+  background-color: var(--color-green) !important;
+}
+
+.c-yellow {
+  background-color: var(--color-yellow) !important;
+}
+
+.right {
+  text-align: right !important;
+}
+
+@keyframes invalid {
+  0% {
+    transform: translateX(-2rem);
+  }
+  25% {
+    transform: translateX(0rem);
+  }
+  50% {
+    transform: translateX(2rem);
+  }
+  75% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(-2rem);
+  }
+}
+
+.invalid {
+  animation: invalid 0.2s ease;
+}
